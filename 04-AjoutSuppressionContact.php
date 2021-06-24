@@ -45,7 +45,7 @@
     }
 ?>
   <hr>
-  <form name="formSaisieContacts" action="02-AffichageAjoutSuppressionContact.php?action=ajout" method="POST">
+  <form name="formSaisieContacts" action="04-AjoutSuppressionContact.php?action=ajout" method="POST">
     <input type="text" name="nom" value="Votre nom"><br />
     <input type="text" name="prenom" value="Votre prenom"><br />
     <input type="text" name="email" value="Votre email"><br />
