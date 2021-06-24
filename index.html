@@ -1,18 +1,14 @@
 <html>
   <head>
-    <title>CCC's Site</title>
-	<style>
-      div { 
-	    color: white;
-        background-color: black;
-		text-align: center;
-      }
-	</style>
+    <title>Mon Test Php</title>
   </head>
-<body>
-  <div>
-    <h1>The dark side </h1>
-    <img src="hacking_pirates.png" />
-  </div>
-</body>
+  <body>
+      Test : la version du serveur est :
+      <?php
+        // phpinfo();
+        $mysqli = new mysqli("172.31.45.77", "root", "RootMysql2021!",
+"contacts");
+        echo $mysqli->server_info; 
+      ?>
+  </body>
 </html>
